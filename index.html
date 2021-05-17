@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/menu.css" rel="stylesheet">
+    <link href="./css/arrow.css" rel="stylesheet">
+    <link href="./css/sobre.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
     
   <body data-spy="scroll" data-target="#top-navbar" data-offset="100" class="vsc-initialized">
@@ -15,7 +19,7 @@
     <!-- Menu -->
     <nav class="navbar navbar-expand-xl top-navbar initial-navbar">
       <div class="container">
-        <a class="navbar-brand" href="">João Carlos</a>
+        <a class="navbar-brand" href="https://scjoao.github.io/">João Carlos</a>
 
         <button class="navbar-toggler navbar-dark" id="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-nav-items">
           <span class="navbar-toggler-icon"></span>
@@ -25,13 +29,13 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
             <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
+            <!-- <li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li> -->
           </ul>
         </div>
       </div>
     </nav>
     
-    <!-- Home-->
+    <!-- Home -->
     <div id="home" class="container-fluid home" tabindex="-1">
       <div class="background container-fluid" style="background: url(images/bg2.png)"></div>
 
@@ -43,13 +47,43 @@
         <a href="#sobre">
           <div class="arrow bounce"></div>
         </a>
+
       </div>
     </div>
 
-    <!-- <footer>
-      <span>Feito com &#10084; por: João Carlos © 2021</span>
-    </footer> -->
+    <!-- Sobre -->
+    <div class="container-fluid section-holder d-flex bg-white">
+      <div id="sobre" class="container anchor p-lg-5 about-section">
+         <div class="row pt-sm-2 pt-md-4 align-self-center">
+            <div class="col-sm-6">
+               <h3 class="p-1">João Carlos</h3>
+               <h5 class="p-1">Lorem Ipsum</h5>
+               <p class="p-1 text-justify">
+                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. 
+                O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde 
+                o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime 
+                de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia 
+                trónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a 
+                disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e 
+                mais recentemente com os programas de publicação como o Aldus PageMaker que incluem 
+                versões do Lorem Ipsum.
+               </p>
+               <div class="text-container ml-auto">
+                  <ul class="social-link d-flex">
+                     <li><a href="https://www.linkedin.com/in/scjoao/" target="/"><i class="fab fa-linkedin-in"></i></a></li>
+                     <li><a href="https://github.com/scjoao/" target="/"><i class="fab fa-github"></i></a></li>
+                     <li><a href="mailto:joao.carlos_25@hotmail.com" target="/"><i class="fas fa-envelope"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
+               <div class="row"></div>
+            </div>
+         </div>
+      </div>
+   </div>
 
+    <!-- Rodape -->
     <footer class="bg-light text-center text-lg-start">
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2021:
@@ -60,5 +94,6 @@
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./js/index.min.js"></script>
     <script type="text/javascript" src="./js/animacao.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 </html>
