@@ -1,4 +1,4 @@
 window.ityped.init(document.querySelector(".ityped"),{
-    strings: ["Programador Jr.", "Amante de Jogos."],
+    strings: ["Seja bem-vindo(a)", "É um prazer ter você aqui"],
     loop: true
 })
